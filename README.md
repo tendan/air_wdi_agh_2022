@@ -1,7 +1,7 @@
 # AiR WDI - Zadania z labów
 
 Struktura katalogów wygląda następująco:
-- /doc - pełne opisy zadań (już wkrótce)
+- /doc - pełne opisy zadań
 - /src - kody źródłowe do zadań kolejno:
   - /python - zad. z Pythona
   - /c - zad. z C (wkrótce)
