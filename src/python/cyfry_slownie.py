@@ -14,11 +14,19 @@ slownik = {
 
 
 def slownie(ciag_cyfr):
+    # utwórz pusty napis do którego będziemy dodawać elementy ze słownika
     literal = ""
+
+    # przejdź po wszystkim elementach ciągu cyfr podanego jako argument metody slownie
     for cyfra in ciag_cyfr:
+        # jeżeli cyfra z ciągu jest zawarta w słowniku, dodaj wartość przypisaną pod klucz do pierwotnie pustego napisu
         if cyfra in slownik:
+            # x += 1 to jest "shorthand" od x = x + 1
+            # oprócz dodania wyrazu ze słownika znajdującego się pod kluczem "cyfra"
+            # dodaj na końcu pusty znak jako odstęp
             literal += slownik[cyfra] + ' '
 
+    # zwróć wyprodukowany literał
     return literal
 
 

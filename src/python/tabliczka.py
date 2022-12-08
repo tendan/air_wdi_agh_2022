@@ -4,6 +4,7 @@ def main():
     print(" | ", end=" ")
 
     for i in range(1, 10 + 1):
+        # wyprintuj wartość i tak, żeby zabierała trzy znaki
         print(f"{i:3}", end=" ")
 
     print()
