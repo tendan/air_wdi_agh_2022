@@ -1,2 +1,5 @@
 # IDE stuff
 .idea
+.vscode
+/**/__pycache__
+/**/*.exe

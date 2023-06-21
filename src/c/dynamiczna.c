@@ -9,10 +9,8 @@ int* generuj(int n) {
         return NULL;
     }
     
-    int incrementor = 1;
     for (int i = 0; i < n; ++i) {
-        tablica[i] = i + incrementor;
-        ++incrementor;
+        tablica[i] = 2 * i + 1;
     }
     
     return tablica;
